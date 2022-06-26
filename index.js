@@ -1,1 +1,3 @@
-console.log(url('image.png'));
+document.getElementById('no').onclick = function() {
+	alert('This system is currently disabled. Check back later!');
+}
