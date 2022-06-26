@@ -5,23 +5,27 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!----- Link to CSS here html --->
+
 	<link rel="stylesheet" href="style.css">
-<!--  	<link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet"> --> 
+	<link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="bg-image">
 		<button class="buttona button1"onclick="window.location.href = 'https://discord.gg/boxpvpv';">Discord</button>
-		<button class="buttonb button2"onclick="window.location.href = 'https://discord.gg/boxpvpv';">About Us</button>
+		<button class="buttonb button2"onClick="document.getElementById('about').scrollIntoView();">About Us</button>
 		<button class="buttonc button3"onclick="window.location.href = 'https://discord.gg/boxpvpv';">Server Stats</button>
-<!--		<div class="widget">
-			<iframe src="https://discord.com/widget?id=797094436496474152&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
--->
+	</div>
+	<div class="about-us">
+		<h1>About Us</h1>
+		<p id="about">We are a minecraft server network based in minehut!</p>
+		<p>Our staff team has experience in all areas, and we try and listen to our player base.</p>
+		<p> </p>
+		<p>We started as a small server, and grew up to be one of the most popular minehut servers.</p>
+		<p>If you want to join the journey, join through the IP: boxpvpv.net!</p> 
 	</div>
 	<script src="index.js"></script>
 	<div class="blur-text">
 		<h1>BoxPvPv</h1>
-	</div>
 	</div>
 </body>
 </html>
