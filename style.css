@@ -37,21 +37,19 @@ h1{
 body,
 html {
 	height: 100%;
-	overflow: hidden;
 }
 
 * {
 	box-sizing: border-box;
 }
 
+
 .bg-image {
 	background-image: url("image.png");
-
-	height: 100%;
-	z-index: 1;
-	background-position: fixed;
-	background-repeat: no-repeat;
+	height: 100vh;
+	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 }
 
 .blur-text {
@@ -70,6 +68,21 @@ html {
 	width: 10%;
 	padding: 10px;
 	text-align: center;
+}
+/*
+.box {
+	height: 400px;
+	width: 50px; 
+	z-index: 2;
+}
+*/
+
+.about-us {
+	padding: 100px;
+	text-align: center;
+	background-color: #474e5d;
+	color: white;
+
 }
 
 .buttona {
@@ -172,3 +185,4 @@ html {
 
 }
 /*
+
