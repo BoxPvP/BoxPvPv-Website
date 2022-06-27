@@ -161,14 +161,13 @@ body,html {
 
 @media(min-width:769px) {
 	.btn {
-		min-width: 100px;
+		min-width: 200px;
 		text-align: center;
 	}
 	.btn-parent {
 		display: flex;
 		flex-direction: row;
-		flex-wrap: wrap;
-	
+		flex-wrap: wrap
 	}
 
 }
