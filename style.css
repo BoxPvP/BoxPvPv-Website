@@ -146,7 +146,7 @@ body,html {
 }
 
 
-@media(max-width:760px) {
+@media(max-width:768px) {
 	.btn {
 		min-width: 200px;
 		text-align: center;
@@ -159,7 +159,7 @@ body,html {
 
 }
 
-@media(max-width:769px) {
+@media(min-width:769px) {
 	.btn {
 		min-width: 400px;
 		text-align: center;
