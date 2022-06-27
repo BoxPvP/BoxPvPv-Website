@@ -148,7 +148,7 @@ body,html {
 
 @media(max-width:768px) {
 	.btn {
-		min-width: 200px;
+		min-width: 100px;
 		text-align: center;
 	}
 	.btn-parent {
@@ -161,7 +161,7 @@ body,html {
 
 @media(min-width:769px) {
 	.btn {
-		min-width: 400px;
+		min-width: 100px;
 		text-align: center;
 	}
 	.btn-parent {
